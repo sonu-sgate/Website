@@ -27,6 +27,7 @@ const image = {
 function ProductHowItWorks() {
   return (
     <Box
+      data-aos="fade-up"
       component="section"
       sx={{ display: "flex", bgcolor: "white", overflow: "hidden" }}
     >

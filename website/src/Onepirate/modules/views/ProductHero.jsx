@@ -9,6 +9,7 @@ const backgroundImage =
 export default function ProductHero() {
   return (
     <ProductHeroLayout
+      data-aos="fade-up"
       sxBackground={{
         backgroundImage: `url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1702857600&semt=ais)`,
         backgroundColor: "#7fc7d9", // Average color of the background image.

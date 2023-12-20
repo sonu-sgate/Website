@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="sticky" style={{ backgroundColor: "#28282AFF" }}>
+    <AppBar  position="sticky" style={{ backgroundColor: "#28282AFF" }}>
       <Toolbar>
         {/* Logo and Name */}
         <Typography

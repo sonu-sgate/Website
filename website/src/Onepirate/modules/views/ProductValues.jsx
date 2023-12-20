@@ -15,6 +15,7 @@ const item = {
 function ProductValues() {
   return (
     <Box
+      data-aos="fade-up"
       component="section"
       sx={{ display: "flex", overflow: "hidden", bgcolor: "white" }}
     >

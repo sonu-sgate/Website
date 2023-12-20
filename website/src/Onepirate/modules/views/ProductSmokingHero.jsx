@@ -7,6 +7,7 @@ import { Typography } from "@mui/material";
 function ProductSmokingHero() {
   return (
     <Container
+      data-aos="fade-up"
       component="section"
       sx={{
         display: "flex",

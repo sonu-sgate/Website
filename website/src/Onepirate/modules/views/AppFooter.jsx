@@ -11,7 +11,7 @@ function Copyright() {
     <React.Fragment>
       {"© "}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        Blogger
       </Link>{" "}
       {new Date().getFullYear()}
     </React.Fragment>
@@ -49,7 +49,7 @@ export default function AppFooter() {
       component="footer"
       sx={{ display: "flex", bgcolor: "#28282A" }}
     >
-      <Container sx={{ my: 8, display: "flex" }}>
+      <Container data-aos="fade-up" sx={{ my: 8, display: "flex" }}>
         <Grid container spacing={5}>
           <Grid item xs={6} sm={4} md={3}>
             <Grid
@@ -115,20 +115,12 @@ export default function AppFooter() {
           <Grid item>
             <Typography variant="caption">
               {"Icons made by "}
-              <Link
-                href=""
-                rel="sponsored"
-                title="Freepik"
-              >
+              <Link href="" rel="sponsored" title="Freepik">
                 Freepik
               </Link>
               {" from "}
-              <Link
-                href=""
-                rel="sponsored"
-                title="Flaticon"
-              >
-               Blogger.com
+              <Link href="" rel="sponsored" title="Flaticon">
+                Blogger.com
               </Link>
               {" is licensed by "}
               <Link

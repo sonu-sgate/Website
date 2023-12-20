@@ -12,6 +12,7 @@ import AppAppBar from "./views/AppAppBar";
 // import withRoot from "./modules/withRoot";
 
 export default function Home() {
+  
   return (
     <>
     {/* navbar */}

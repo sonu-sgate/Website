@@ -36,7 +36,8 @@ function ProductHeroLayout(props) {
   return (
     <ProductHeroLayoutRoot>
       <Container
-      // mt="0"
+        data-aos="fade-up"
+        // mt="0"
         sx={{
           // mt: 3,
           // mb: 14,
@@ -45,12 +46,11 @@ function ProductHeroLayout(props) {
           alignItems: "center",
         }}
       >
-       <Avatar
+        <Avatar
           src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164153/8_big22-768x591.png"
           alt="wonder"
           width="147"
           height="80"
-      
         />
 
         {children}
@@ -67,7 +67,7 @@ function ProductHeroLayout(props) {
           }}
         />
         <Background sx={sxBackground} />
-    
+
         {/* <Box
           component="img"
           src="/static/themes/onepirate/productHeroArrowDown.png"
@@ -76,7 +76,7 @@ function ProductHeroLayout(props) {
           alt="arrow down"
           sx={{ position: "absolute", bottom: 32 }}
         /> */}
-        <IoIosArrowDown/>
+        <IoIosArrowDown />
       </Container>
     </ProductHeroLayoutRoot>
   );
