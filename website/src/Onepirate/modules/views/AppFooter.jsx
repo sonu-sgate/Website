@@ -3,8 +3,9 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Container from "@mui/material/Container";
-
-
+import { Typography } from "@mui/material";
+import {TextField } from "@mui/material";
+import { IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
 function Copyright() {
   return (
     <React.Fragment>
@@ -44,8 +45,9 @@ const LANGUAGES = [
 export default function AppFooter() {
   return (
     <Typography
+      color={"white"}
       component="footer"
-      sx={{ display: "flex", bgcolor: "secondary.light" }}
+      sx={{ display: "flex", bgcolor: "#28282A" }}
     >
       <Container sx={{ my: 8, display: "flex" }}>
         <Grid container spacing={5}>
@@ -58,18 +60,15 @@ export default function AppFooter() {
               sx={{ height: 120 }}
             >
               <Grid item sx={{ display: "flex" }}>
-                <Box component="a" href="https://mui.com/" sx={iconStyle}>
-                  <img
-                    src="/static/themes/onepirate/appFooterFacebook.png"
-                    alt="Facebook"
-                  />
+                <Box sx={iconStyle}>
+                  <IoLogoFacebook style={{ fontSize: "100px" }} />
                 </Box>
                 <Box
                   component="a"
                   href="https://twitter.com/MUI_hq"
                   sx={iconStyle}
                 >
-                  <img src="/static/themes/onepirate/appFooterX.png" alt="X" />
+                  <IoLogoInstagram style={{ fontSize: "100px" }} />
                 </Box>
               </Grid>
               <Grid item>
@@ -87,6 +86,9 @@ export default function AppFooter() {
               </Box>
               <Box component="li" sx={{ py: 0.5 }}>
                 <Link href="/premium-themes/onepirate/privacy/">Privacy</Link>
+              </Box>
+              <Box component="li" sx={{ py: 0.5 }}>
+                <Link href="/premium-themes/onepirate/privacy/">AboutUs</Link>
               </Box>
             </Box>
           </Grid>
@@ -114,7 +116,7 @@ export default function AppFooter() {
             <Typography variant="caption">
               {"Icons made by "}
               <Link
-                href="https://www.freepik.com"
+                href=""
                 rel="sponsored"
                 title="Freepik"
               >
@@ -122,20 +124,20 @@ export default function AppFooter() {
               </Link>
               {" from "}
               <Link
-                href="https://www.flaticon.com"
+                href=""
                 rel="sponsored"
                 title="Flaticon"
               >
-                www.flaticon.com
+               Blogger.com
               </Link>
               {" is licensed by "}
               <Link
-                href="https://creativecommons.org/licenses/by/3.0/"
+                href=""
                 title="Creative Commons BY 3.0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CC 3.0 BY
+                Blogger
               </Link>
             </Typography>
           </Grid>

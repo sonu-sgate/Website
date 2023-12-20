@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
-
+import { Typography } from "@mui/material";
 
 function ProductSmokingHero() {
   return (
@@ -33,7 +33,7 @@ function ProductSmokingHero() {
       </Typography>
       <Box
         component="img"
-        src="/static/themes/onepirate/productBuoy.svg"
+        src="https://mui.com/static/themes/onepirate/productBuoy.svg"
         alt="buoy"
         sx={{ width: 60 }}
       />

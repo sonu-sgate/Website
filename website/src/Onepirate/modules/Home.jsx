@@ -8,6 +8,7 @@ import ProductHowItWorks from "./views/ProductHowItWorks";
 import ProductCTA from "./views/ProductCTA";
 import AppAppBar from "./views/AppAppBar";
 
+
 // import withRoot from "./modules/withRoot";
 
 export default function Home() {
@@ -18,12 +19,12 @@ export default function Home() {
 {/* 
 Banner or somekind of this */}
       <ProductHero />
-      {/* <ProductValues /> */}
-      {/* <ProductCategories />
+      <ProductValues />
+      <ProductCategories />
       <ProductHowItWorks />
       <ProductCTA />
-      <ProductSmokingHero /> */}
-      {/* <AppFooter /> */}
+      <ProductSmokingHero />
+      <AppFooter />
     </>
   );
 }

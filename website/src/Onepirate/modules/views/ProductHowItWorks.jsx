@@ -3,8 +3,8 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
-
-
+import { Typography } from "@mui/material";
+import { Button } from "@mui/material";
 const item = {
   display: "flex",
   flexDirection: "column",
@@ -28,7 +28,7 @@ function ProductHowItWorks() {
   return (
     <Box
       component="section"
-      sx={{ display: "flex", bgcolor: "secondary.light", overflow: "hidden" }}
+      sx={{ display: "flex", bgcolor: "white", overflow: "hidden" }}
     >
       <Container
         sx={{
@@ -61,7 +61,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>1.</Box>
                 <Box
                   component="img"
-                  src="/static/themes/onepirate/productHowItWorks1.svg"
+                  src="https://mui.com/static/themes/onepirate/productHowItWorks1.svg"
                   alt="suitcase"
                   sx={image}
                 />
@@ -75,7 +75,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>2.</Box>
                 <Box
                   component="img"
-                  src="/static/themes/onepirate/productHowItWorks2.svg"
+                  src="https://mui.com/static/themes/onepirate/productHowItWorks2.svg"
                   alt="graph"
                   sx={image}
                 />
@@ -90,7 +90,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>3.</Box>
                 <Box
                   component="img"
-                  src="/static/themes/onepirate/productHowItWorks3.svg"
+                  src="https://mui.com/static/themes/onepirate/productHowItWorks3.svg"
                   alt="clock"
                   sx={image}
                 />
