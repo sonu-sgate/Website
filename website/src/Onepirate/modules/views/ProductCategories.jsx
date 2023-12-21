@@ -4,8 +4,19 @@ import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Container from "@mui/material/Container";
 import { Typography } from "@mui/material";
+import { createTheme } from "@mui/material";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
+// import { makeStyles } from "@mui/styles";
+
+// const useStyles = makeStyles((theme) => ({
+//   zoomOnHover: {
+//     transition: "transform 0.3s",
+//     "&:hover": {
+//       transform: "scale(1.1)",
+//     },
+//   },
+// }));
 const ImageBackdrop = styled("div")(({ theme }) => ({
   position: "absolute",
   left: 0,
@@ -103,7 +114,7 @@ const images = [
 ];
 
 export default function ProductCategories() {
-
+// const classess=useStyles()
   return (
     <Container data-aos="fade-up" component="section" sx={{ mt: 8, mb: 4 }}>
       <Typography variant="h4" marked="center" align="center" component="h2">
@@ -116,6 +127,7 @@ export default function ProductCategories() {
             style={{
               width: image.width,
             }}
+            
           >
             <Box
               sx={{

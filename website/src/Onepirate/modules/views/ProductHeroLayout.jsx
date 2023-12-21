@@ -16,7 +16,7 @@ const ProductHeroLayoutRoot = styled("section")(({ theme }) => ({
     minHeight: 500,
     maxHeight: 1300,
   },
-  border:"1px solid red"
+  // border:"1px solid red"
 }));
 
 const Background = styled(Box)({
@@ -36,7 +36,7 @@ function ProductHeroLayout(props) {
   return (
     <ProductHeroLayoutRoot>
       <Container
-        data-aos="fade-up"
+        // data-aos="fade-up"
         // mt="0"
         sx={{
           // mt: 3,

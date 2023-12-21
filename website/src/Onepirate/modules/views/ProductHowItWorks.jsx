@@ -49,7 +49,12 @@ function ProductHowItWorks() {
             pointerEvents: "none",
             position: "absolute",
             top: -180,
+
             opacity: 0.7,
+            border: "1px solid red",
+            //      transition: 'background-color 0.3s',
+            // ':hover': {
+            //   backgroundColor: (theme) => theme.palette.secondary.main,}
           }}
         />
         <Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
@@ -57,7 +62,17 @@ function ProductHowItWorks() {
         </Typography>
         <div>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={4}>
+            <Grid
+              item
+              xs={12}
+              md={4}
+              sx={{
+                transition: "transform 0.3s",
+                ":hover": {
+                  transform: "scale(1.1)",
+                },
+              }}
+            >
               <Box sx={item}>
                 <Box sx={number}>1.</Box>
                 <Box
@@ -71,7 +86,17 @@ function ProductHowItWorks() {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid
+              item
+              xs={12}
+              md={4}
+              sx={{
+                transition: "transform 0.3s",
+                ":hover": {
+                  transform: "scale(1.1)",
+                },
+              }}
+            >
               <Box sx={item}>
                 <Box sx={number}>2.</Box>
                 <Box
@@ -86,7 +111,17 @@ function ProductHowItWorks() {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid
+              item
+              xs={12}
+              md={4}
+              sx={{
+                transition: "transform 0.3s",
+                ":hover": {
+                  transform: "scale(1.1)",
+                },
+              }}
+            >
               <Box sx={item}>
                 <Box sx={number}>3.</Box>
                 <Box
