@@ -7,6 +7,7 @@ import {
   IconButton,
   Menu,
   MenuItem,
+  Accordion,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
@@ -34,7 +35,7 @@ const Navbar = () => {
         >
           Blogger
         </Typography>
-
+{/* <Accordion/> */}
         {/* About Us Link */}
         <Button component={Link} to="/about" color="inherit">
           About Us
@@ -63,7 +64,7 @@ const Navbar = () => {
         <Button
           sx={{ "@media (max-width:600px)": { display: "none" } }}
           component={Link}
-          to="/signin"
+       
           color="inherit"
         >
           Sign In

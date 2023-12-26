@@ -27,7 +27,17 @@ function ProductValues() {
           sx={{ pointerEvents: "none", position: "absolute", top: -180 }}
         />
         <Grid container spacing={5}>
-          <Grid item xs={12} md={4}>
+          <Grid
+            item
+            xs={12}
+            md={4}
+            sx={{
+              transition: "transform 0.3s",
+              ":hover": {
+                transform: "scale(1.1)",
+              },
+            }}
+          >
             <Box sx={item}>
               <Box
                 component="img"
@@ -49,7 +59,17 @@ function ProductValues() {
               </Typography>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid
+            item
+            xs={12}
+            md={4}
+            sx={{
+              transition: "transform 0.3s",
+              ":hover": {
+                transform: "scale(1.1)",
+              },
+            }}
+          >
             <Box sx={item}>
               <Box
                 component="img"
@@ -69,7 +89,17 @@ function ProductValues() {
               </Typography>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid
+            item
+            xs={12}
+            md={4}
+            sx={{
+              transition: "transform 0.3s",
+              ":hover": {
+                transform: "scale(1.1)",
+              },
+            }}
+          >
             <Box sx={item}>
               <Box
                 component="img"
